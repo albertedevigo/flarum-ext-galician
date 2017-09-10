@@ -1,4 +1,4 @@
-# English Language Pack for Flarum
+# Galician Language Pack for Flarum
 
 ## Installation
 
