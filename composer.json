@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-galician",
+    "name": "albertedevigo/flarum-ext-galician",
     "type": "flarum-extension",
     "description": "Galician language pack.",
     "keywords": ["locale"],
