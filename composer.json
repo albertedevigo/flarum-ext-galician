@@ -1,7 +1,7 @@
 {
     "name": "albertedevigo/flarum-ext-galician",
     "type": "flarum-extension",
-    "description": "Galician language pack.",
+    "description": "Galician language pack for Flarum",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
