@@ -2,7 +2,11 @@
 
 ## Installation
 
-This language pack is bundled with [Flarum](http://flarum.org/).
+Use [Composer](https://getcomposer.org/) to install the extension.
+
+```bash
+$ composer require albertedevigo/flarum-ext-galician
+```
 
 ## Translating Flarum
 
