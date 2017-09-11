@@ -9,102 +9,102 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      developer_text: "Se es programador, podes <a>ler a documentación</a> e tentar crear as tuas propias extensións."
+      install_text: "Mentres tanto, podes encontrar extensións no <a>web da Comunidade Flarum</a> e instalalas manualmente usando Composer."
+      temporary_text: "Algún día nun futuro non moi lonxando, este cadro de diálogo permitirache engadir unha extensión ao teu foro facilmente. Estamos a construir un ecosistema mentres falamos!"
+      title: Engadir extensión
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
+      colored_header_label: Cabeceira coloreada
+      colors_heading: Cores
+      colors_text: "Escolle dúas cores para decorar o teu foro. A primeira será usada para destaques, a segunda para elementos de fondo."
+      custom_header_heading: Cabeceira personalizada
+      custom_header_text: "Engade HTML para mostrar na parte superior da páxina, enriba da cabeceira de Flarum."
+      custom_styles_heading: Estilos personalizados
+      custom_styles_text: Personaliza a apariencia do teu foro engadindo o teu propio código LESS/CSS que se aplicará sobre os estilos por defecto de Flarum.
+      dark_mode_label: Modo escuro
+      edit_css_button: Editar CSS personalizado
+      edit_header_button: Editar cabeceira personalizada
+      enter_hex_message: Introduce un código de cor hexadecimal.
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Sube unha imaxe para mostrar como acceso rápido ao foro.
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Sube unha imaxe para mostrar en lugar do título do foro.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: Idioma por defecto
+      forum_description_heading: Descrición do foro
+      forum_description_text: Introduce unha frase curta ou dúas que describan a túa comunidade. Isto aparecerá na meta tag e mostrarase nos motores de búsqueda.
+      forum_title_heading: Título do foro
+      home_page_heading: Páxina de inicio
+      home_page_text: "Escolle a páxina que os usuario verán cando visiten o foro por primeira vez. Se introduces un valor personalizado, usa a ruta relativa á raiz do foro."
+      saved_message: Os cambios foron gardados.
+      show_language_selector_label: Mostrar o selector de idioma
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: Banner de benvida
+      welcome_banner_text: Configura o texto que se mostra no banner na páxina Todas as discusións. Úsao para dar a benvida aos visitantes do foro.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      beta_warning_text: "Este <strong>software en fase beta</strong> proporciónase principalmente para que podas axudarnos a probalo e melloralo; non debe ser usado en producción."
+      contributing_text: "Queres buscar bugs e contribuir? Le a <a>documentación sobre Contribución</a>."
+      extension_text: "Interesado en desenvolver extensións? Le a <a>documentación sobre Extensións</a>."
+      features_text: "Tes algunha idea sobre como mellorar unha característica? Cóntanola na <a>etiqueta Features</a>."
+      support_text: "Encontrache un bug? Por favor, informa no noso foro, baixo a <a>etiqueta Support</a>."
+      troubleshooting_text: "Algún problema? Segue as instruccións da <a>documentación de Troubleshooting</a>."
+      version_text: "Grazas por probar Flarum! Estás a executar a versión {version}."
+      welcome_text: "Benvida/o a Flarum Beta!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Personaliza a apariencia do teu foro engadindo o teu propio código LESS/CSS que se aplicará sobre os <a>estilos por defecto</a> de Flarum."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: Editar CSS personalizado
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      color_label: Cor
+      delete_button: Borrar grupo
+      delete_confirmation: "Tes a certeza de querer borrar este grupo? Os membros do grupo NON serán borrados."
+      icon_label: Icono
+      icon_text: "Introduce o nome de calquer clase de icono de <a>FontAwesome</a>, <em>sen</em> o prefixo <code>fa-</code>."
+      name_label: Nome
+      plural_placeholder: Plural (p.e. Mods)
+      singular_placeholder: Singular (p.e. Mod)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Crear grupo
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: "Engade HTML para mostrar na parte superior da páxina, enriba da cabeceira de Flarum."
       submit_button: => core.ref.save_changes
-      title: Edit Custom Header
+      title: Editar cabeceira personalizada
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
+      account_heading: Conta SMTP
+      addresses_heading: Enderezos
       driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      encryption_label: Cifrado
+      from_label: Remitente
       heading: => core.ref.email
       host_label: Host
       password_label: => core.ref.password
-      port_label: Port
-      server_heading: SMTP Server
+      port_label: Porto
+      server_heading: Servidor SMTP
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: Configura as opcións e enderezos SMTP que o teu foro usará para enviar emails.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: Engadir extensión
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: Desinstalar
 
     # These translations are used in the session dropdown menu.
     header:
@@ -112,55 +112,55 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Por favor, espera...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: Apariencia
+      appearance_text: "Personaliza as cores, logos, e outras variables do teu foro."
+      basics_button: Básico
+      basics_text: "Define o título, idioma, e outras configuracións básicas do foro."
+      dashboard_button: Panel de control
+      dashboard_text: O teu foro dunha ollada.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "Configura as preferencias de email do teu foro."
+      extensions_button: Extensións
+      extensions_text: Engade funcionalidades extra ao teu foro e adáptao a ti.
+      permissions_button: Permisos
+      permissions_text: Configura quen pode ver e facer cada cousa.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
+      allow_renaming_label: Permitir renomear
+      allow_post_editing_label: Permitir a edición de publicacións
+      create_heading: Crear
+      delete_discussions_forever_label: Borrar discusións para sempre
+      delete_discussions_label: Borrar discusións
+      delete_posts_forever_label: Borrar publicacións para sempre
+      edit_and_delete_posts_label: Editar e borrar publicacións
       global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      moderate_heading: Moderar
+      new_group_button: Novo grupo
+      participate_heading: Participar
+      read_heading: Ler
+      rename_discussions_label: Renomear discusións
+      reply_to_discussions_label: Responder a discusións
+      sign_up_label: Rexistro
+      start_discussions_label: Comezar discusións
+      view_discussions_label: Ver discusións
+      view_post_ips_label: Ver direccións IP das publicacións
+      view_user_list_label: Ver lista de usuarios
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: Indefinidamente
+      allow_some_minutes_button: "Durante {count} minuto|Durante {count} minutos"
+      allow_ten_minutes_button: Durante 10 minutos
+      allow_until_reply_button: Até a próxima resposta
+      everyone_button: Todo o mundo
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: Cerrado
+      signup_open_button: Aberto
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -168,8 +168,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
-      upload_button: Choose an Image...
+      remove_button: Borrar
+      upload_button: Escoller unha imaxe...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
