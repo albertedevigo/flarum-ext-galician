@@ -1,5 +1,7 @@
 # Galician Language Pack for Flarum
 
+Work In Progress - Use with caution.
+
 ## Installation
 
 Use [Composer](https://getcomposer.org/) to install the extension.
