@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Bloquear discusións
+      lock_discussions_label: Bloquear conversas
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -29,8 +29,8 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} bloqueou a discusión."
-      discussion_unlocked_text: "{username} desbloqueou a discusión."
+      discussion_locked_text: "{username} bloqueou a conversa."
+      discussion_unlocked_text: "{username} desbloqueou a conversa."
 
     # These translations are used in the Settings page.
     settings:

@@ -15,9 +15,9 @@ flarum-tags:
     edit_tag:
       color_label: Cor
       delete_tag_button: Borrar etiqueta
-      delete_tag_confirmation: "Tes a certeza de querer eliminar esta etiqueta? As discusións da etiqueta NON serán borradas."
+      delete_tag_confirmation: "Tes a certeza de querer eliminar esta etiqueta? As conversas da etiqueta NON serán borradas."
       description_label: Descrición
-      hide_label: Esconder de todas as discusións
+      hide_label: Esconder de todas as conversas
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
@@ -27,26 +27,26 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Administrar a lista de tags disponíbeis para organizar discusións.
+      tags_text: Administrar a lista de etiquetas dispoñíbeis para organizar conversas.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Permitir a edición de etiquetas
       restrict_by_tag_heading: Restrinxir por etiqueta
-      tag_discussions_label: Discusión da etiqueta
+      tag_discussions_label: Conversa da etiqueta
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " a "
       required_primary_heading: Número requerido de etiquetas primarias
-      required_primary_text: Introduce o número mínimo e máximo de etiquetas primarias que poden ser aplicadas a unha discusión.
+      required_primary_text: Introduce o número mínimo e máximo de etiquetas primarias que poden ser aplicadas a unha conversa.
       required_secondary_heading: Número requerido de etiquetas secundarias
-      required_secondary_text: Introduce o número mínimo e máximo de etiquetas secundarias que poden ser aplicadas a unha discusión.
+      required_secondary_text: Introduce o número mínimo e máximo de etiquetas secundarias que poden ser aplicadas a unha conversa.
       title: Configuración de etiquetas
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "As etiquetas son utilizadas para organizar as discusiíns. As etiquetas primarias son como as tradicionais categorías dun foro: poden ser organizadas nunha xerarquía de dous niveis. As etiquetas secundarias non teñen unha orde xerárquica e son útiles para a micro-categorización."
+      about_tags_text: "As etiquetas son utilizadas para organizar as conversas. As etiquetas primarias son como as tradicionais categorías dun foro: poden ser organizadas nunha xerarquía de dous niveis. As etiquetas secundarias non teñen unha orde xerárquica e son útiles para a micro-categorización."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Etiquetas primarias
       secondary_heading: Etiquetas secundarias
@@ -61,7 +61,7 @@ flarum-tags:
       choose_secondary_placeholder: "Escolle unha etiqueta máis|Escolle {count} etiquetas máis"
       edit_title: "Editar as etiquetas de {title}"
       submit_button: => core.ref.okay
-      title: Escolle as etiquetas para a tua discusión
+      title: Escolle as etiquetas para a tua conversa
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

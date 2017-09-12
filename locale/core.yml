@@ -46,7 +46,7 @@ core:
       show_language_selector_label: Mostrar o selector de idioma
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Banner de benvida
-      welcome_banner_text: Configura o texto que se mostra no banner na páxina Todas as discusións. Úsao para dar a benvida aos visitantes do foro.
+      welcome_banner_text: Configura o texto que se mostra no banner na páxina Todas as conversas. Úsao para dar a benvida aos visitantes do foro.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -134,8 +134,8 @@ core:
       allow_renaming_label: Permitir renomear
       allow_post_editing_label: Permitir a edición de publicacións
       create_heading: Crear
-      delete_discussions_forever_label: Borrar discusións para sempre
-      delete_discussions_label: Borrar discusións
+      delete_discussions_forever_label: Borrar conversas para sempre
+      delete_discussions_label: Borrar conversas
       delete_posts_forever_label: Borrar publicacións para sempre
       edit_and_delete_posts_label: Editar e borrar publicacións
       global_heading: Global
@@ -143,11 +143,11 @@ core:
       new_group_button: Novo grupo
       participate_heading: Participar
       read_heading: Ler
-      rename_discussions_label: Renomear discusións
-      reply_to_discussions_label: Responder a discusións
+      rename_discussions_label: Renomear conversas
+      reply_to_discussions_label: Responder a conversas
       sign_up_label: Rexistro
-      start_discussions_label: Comezar discusións
-      view_discussions_label: Ver discusións
+      start_discussions_label: Comezar conversas
+      view_discussions_label: Ver conversas
       view_post_ips_label: Ver direccións IP das publicacións
       view_user_list_label: Ver lista de usuarios
 
@@ -199,10 +199,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Escribir unha publicación...
-      discard_confirmation: "A tua discusión non foi publicada. Queres descartala?"
-      submit_button: Publicar discusión
+      discard_confirmation: "A tua conversa non foi publicada. Queres descartala?"
+      submit_button: Publicar conversa
       title: => core.ref.start_a_discussion
-      title_placeholder: Título da discusión
+      title_placeholder: Título da conversa
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -223,7 +223,7 @@ core:
       cannot_reply_button: Non podes responder
       cannot_reply_text: Non tes permisos para responder a esta publicación.
       delete_button: => core.ref.delete
-      delete_confirmation: "Estás seguro de querer borrar esta discusión?"
+      delete_confirmation: "Estás seguro de querer borrar esta conversa?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Accede para responder
       rename_button: => core.ref.rename
@@ -232,7 +232,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Semella que non hai discusións aqui.
+      empty_text: Semella que non hai conversas aqui.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Marcar como lido
       replied_text: "{username} respondeu {ago}"
@@ -265,7 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administración
-      back_to_index_tooltip: Voltar á lista de discusións
+      back_to_index_tooltip: Voltar á lista de conversas
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Perfil
@@ -276,7 +276,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Non podes comezar unha discusión
+      cannot_start_discussion_button: Non podes comezar unha conversa
       mark_all_as_read_confirmation: "Tes certeza de querer marcar todos como lidos?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Refrescar
@@ -339,12 +339,12 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Renomear discusión
+      title: Renomear conversa
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Buscar "{query}" en todas as discusións'
+      all_discussions_button: 'Buscar "{query}" en todas as conversas'
       discussions_heading: => core.ref.discussions
       users_heading: Users
 
@@ -356,7 +356,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Alguén renomea unha discusión que eu comecei
+      notify_discussion_renamed_label: Alguén renomea unha conversa que eu comecei
       privacy_disclose_online_label: Permitir a outros saber que estou online
       privacy_heading: Privacidade
       title: => core.ref.settings
@@ -506,14 +506,14 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Todas as discusións
+    all_discussions: Todas as conversas
     change_email: Mudar email
     change_password: Mudar contrasinal
     confirm_password: Confirmar contrasinal
     confirmation_email_sent: "Foi enviado un email de confirmación a {email}. Se non chega cedo, comproba a carpeta de spam."
     delete: Borrar
     delete_forever: Borrar para sempre
-    discussions: Discusións
+    discussions: Conversas
     edit: Editar
     email: Email
     load_more: Cargar máis
@@ -532,7 +532,7 @@ core:
     settings: Preferencias
     sign_up: Rexistrarse
     some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Comezar unha discusión
+    start_a_discussion: Comezar unha conversa
     username: Nome de usuario
     write_a_reply: Escribir unha resposta...
     you: Ti                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
