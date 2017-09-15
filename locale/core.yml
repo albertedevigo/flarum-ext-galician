@@ -522,17 +522,17 @@ core:
     mark_all_as_read: Marcar todo como lido
     next_page: Seguinte páxina
     notifications: Notificacións
-    okay: OK                                     # Referenced by flarum-tags.yml
+    okay: OK # Referenced by flarum-tags.yml
     password: Contrasinal
     rename: Renomear
-    reply: Responder                                 # Referenced by flarum-mentions.yml
+    reply: Responder # Referenced by flarum-mentions.yml
     reset_your_password: Redefinir o teu contrasinal
     restore: Restaurar
-    save_changes: Gardar cambios                 # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Gardar cambios # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Preferencias
     sign_up: Rexistrarse
-    some_others: "{count} outro|{count} outros"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Comezar unha conversa
+    some_others: "{count} outro|{count} outros" # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Comezar conversa
     username: Nome de usuario
     write_a_reply: Escribir unha resposta...
     you: Ti                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
